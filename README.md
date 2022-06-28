@@ -10,9 +10,9 @@ The example uses the Dashboard Control's [client-side API](https://docs.devexpr
 
 ## Files to Look At
 
-- [UnderlyingData.js](./CS/MvcDashboard_UnderlyingData/Scripts/UnderlyingData.js)
-- [Index.cshtml](./CS/MvcDashboard_UnderlyingData/Views/Index.cshtml)
-- [_Layout.cshtml](./CS/MvcDashboard_UnderlyingData/Views/Shared/_Layout.cshtml)
+- [UnderlyingData.js](./CS/MvcDashboard_UnderlyingData/Scripts/UnderlyingData.js) (VB: [UnderlyingData.js](./VB/MvcDashboard_UnderlyingData/Scripts/UnderlyingData.js))
+- [Index.cshtml](./CS/MvcDashboard_UnderlyingData/Views/Home/Index.cshtml) (VB: [Index.cshtml](./VB/MvcDashboard_UnderlyingData/Views/Home/Index.cshtml))
+- [_Layout.cshtml](./CS/MvcDashboard_UnderlyingData/Views/Shared/_Layout.cshtml) (VB: [Index.cshtml](./VB/MvcDashboard_UnderlyingData/Views/Shared/_Layout.cshtml))
 
 ## Documentation
 
