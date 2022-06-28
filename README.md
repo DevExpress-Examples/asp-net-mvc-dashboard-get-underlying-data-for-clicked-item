@@ -1,3 +1,7 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/508243753/21.2.8%2B)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # Dashboard for MVC - How to obtain a dashboard item's underlying data for a clicked visual element
 
 The example uses the Dashboard Control's [client-side API](https://docs.devexpress.com/Dashboard/16796) to get underlying data that corresponds to a particular visual element.
