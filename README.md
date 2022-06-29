@@ -8,7 +8,7 @@ The example uses the Dashboard Control's [client-side API](https://docs.devexpr
 
 ![](web-dashboard-underlying-data-popup.png)
 
-In this example, the [`ViewerApiExtensionOptions.onItemClick`](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtensionOptions?p=netframework#js_devexpress_dashboard_viewerapiextensionoptions_onitemclick) event is handled to obtain underlying data and invoke the [`dxPopup`](https://js.devexpress.com/DevExtreme/ApiReference/UI_Components/dxPopup/) widget with the [`dxDataGrid`](https://js.devexpress.com/DevExtreme/ApiReference/UI_Components/dxDataGrid/). In the event handler, the [`e.requestUnderlyingData`](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ItemClickEventArgs?p=netframework#js_devexpress_dashboard_itemclickeventargs_requestunderlyingdata) method returns records from the dashboard's data source. The `dxDataGrid` displays these records.
+In this example, the [`ViewerApiExtensionOptions.onItemClick`](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtensionOptions?p=netframework#js_devexpress_dashboard_viewerapiextensionoptions_onitemclick) event is handled to obtain underlying data and invoke the [`dxPopup`](https://js.devexpress.com/DevExtreme/ApiReference/UI_Components/dxPopup/) widget that contains the [`dxDataGrid`](https://js.devexpress.com/DevExtreme/ApiReference/UI_Components/dxDataGrid/). In the event handler, the [`e.requestUnderlyingData`](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ItemClickEventArgs?p=netframework#js_devexpress_dashboard_itemclickeventargs_requestunderlyingdata) method returns records from the dashboard's data source. The `dxDataGrid` displays these records.
 
 ## Files to Look At
 
