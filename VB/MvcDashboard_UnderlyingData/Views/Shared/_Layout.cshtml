@@ -5,12 +5,13 @@
     <meta charset="UTF-8" />
     <title>@ViewBag.Title</title>
     @Html.DevExpress().GetStyleSheets(
-    New StyleSheet With {.ExtensionSuite = ExtensionSuite.Dashboard}
-)
-    @Html.DevExpress().GetScripts(
-        New Script With {.ExtensionSuite = ExtensionSuite.Dashboard}
+            new StyleSheet { ExtensionSuite = ExtensionSuite.Dashboard }
     )
-    @RenderSection("Scripts", required:= False)
+    @Html.DevExpress().GetScripts(
+            new Script { ExtensionSuite = ExtensionSuite.Dashboard }
+    )
+    @RenderSection("Scripts", required: false)
+
 </head>
 
 <body>
