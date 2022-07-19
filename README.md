@@ -14,8 +14,8 @@ In this example, the [ViewerApiExtensionOptions.onItemClick](https://docs.devexp
 ## Files to Look At
 
 - [UnderlyingData.js](./CS/MvcDashboard_UnderlyingData/Scripts/UnderlyingData.js) (VB: [UnderlyingData.js](./VB/MvcDashboard_UnderlyingData/Scripts/UnderlyingData.js))
-- [Index.cshtml](./CS/MvcDashboard_UnderlyingData/Views/Home/Index.cshtml) (VB: [Index.cshtml](./VB/MvcDashboard_UnderlyingData/Views/Home/Index.cshtml))
-- [_Layout.cshtml](./CS/MvcDashboard_UnderlyingData/Views/Shared/_Layout.cshtml) (VB: [_Layout.cshtml](./VB/MvcDashboard_UnderlyingData/Views/Shared/_Layout.cshtml))
+- [Index.cshtml](./CS/MvcDashboard_UnderlyingData/Views/Home/Index.cshtml) (VB: [Index.vbhtml](./VB/MvcDashboard_UnderlyingData/Views/Home/Index.vbhtml))
+- [_Layout.cshtml](./CS/MvcDashboard_UnderlyingData/Views/Shared/_Layout.cshtml) (VB: [_Layout.vbhtml](./VB/MvcDashboard_UnderlyingData/Views/Shared/_Layout.vbhtml))
 
 ## Documentation
 
